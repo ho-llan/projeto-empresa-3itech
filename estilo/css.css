@@ -1,0 +1,167 @@
+CSS
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: rgb(20, 20, 20);
+    margin: 0;
+    color: white;
+}
+
+/* Titulo 3 Tech */
+.titulo{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    display: block;
+    padding: 0px 0;
+    padding-bottom: 0px;
+    color: #FF8C00;
+    -webkit-text-stroke: 1px #FFF;
+    text-shadow: 1px #FFF;
+}
+
+/* Linha embaixo do 3 Tech */
+.titulo::after{
+    content: ' ';
+    display: block;
+    margin-right: 0px;
+    margin-left: 37.5%;
+    width: 25%;
+    height: 2px;
+    margin-top: -1px;
+    margin-bottom: 40px;
+    background: -webkit-linear-gradient(left, rgb(194, 25, 25, 0) 0%,rgb(255, 140, 0, 0.8) 20%,rgb(255, 140, 0, 1) 53%,rgb(255, 140, 0, 0.8) 79%,rgb(194, 25, 25, 0) 100%); 
+    background: linear-gradient(left, rgb(194, 25, 25, 0) 0%,rgb(255, 140, 0, 0.8) 20%,rgb(255, 140, 0, 1) 53%,rgb(255, 140, 0, 0.8) 79%,rgb(194, 25, 25, 0) 100%);
+}
+
+/* Barra Menu */
+.menu{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(255, 140, 0);
+    height: 20px;
+}
+
+/* Botões Menu */
+li a{
+   color: white;
+   font-size: 15px;
+   font-family:Verdana, Tahoma, sans-serif;
+   text-decoration: none;
+   text-shadow: 1px 1px 3px white;
+}
+
+/* Efeito botões menu */
+li a:hover{
+    color: #FF8C00;
+    background-color: black;
+    margin: 2px;
+    padding: 5px;
+    border: 1px solid #FF8C00;
+    text-shadow: 1px 1px 3px #FF8C00;
+}
+
+ul {
+    margin: 0;
+    padding:0;
+}
+
+li {
+    list-style: none; 
+    margin: 10px;
+    display: inline;
+}
+
+/* Formatação paragrafos*/
+.texto{
+    line-height: 20px;
+    text-align: center;
+    font-family: Verdana, Tahoma, Sans-Serif;
+    font-size: 15px;
+    margin: 20px;
+}
+
+/* Posição resto da pagina*/
+.caixa{
+    width: 645px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border: 2px solid #FF8C00;
+    border-radius: 1em;
+    text-align: center;
+    font-family: Verdana, Tahoma, Sans-Serif;
+}
+
+/* Caixa com os itens */
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 2px solid #FF8C00;
+    justify-content: center;
+}
+
+/* Caixa de itens */
+.item{
+    margin: 10px 9px;
+    padding-top: 5px;
+    width: 300px;
+	background: black;
+	text-align: center;
+	font-size: 15px;
+    border: 2px solid #FF8C00;
+    border-radius: 1em;
+}
+
+/* Fotos serviços*/
+.fotos{
+    border-radius: 1em;
+    margin-bottom: -10px;
+    margin-top: 8px;
+}
+
+/* Caixa Contatos*/
+.caixa2{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border: 2px solid #FF8C00;
+    border-radius: 1em;
+    text-align: center;
+    font-family: Verdana, Tahoma, Sans-Serif;
+}
+
+/* Item contatos*/
+.item2{
+    margin: 10px 9px;
+    padding-top: 5px;
+    width: 30%;
+	background: black;
+	text-align: center;
+	font-size: 15px;
+    border: 2px solid #FF8C00;
+    border-radius: 1em;
+}
+
+/* Foto LinkedIn*/
+.linked{
+    border-radius: 1em;
+    
+}
+
+/* Link LinkedIn*/
+.item2 a{
+    text-decoration: none;
+    color: blue;
+    margin-left: 3px;
+}
+
+.fotos2 {
+border-radius: 1em;
+
+}
